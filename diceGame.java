@@ -20,10 +20,10 @@ class diceGame {
       }
     System.out.println("Total value:"+total);
     if(total>7){
-      System.out.println("You won");
+      System.out.println(input_text+" won!");
     }
     else{
-      System.out.println("You lost");
+      System.out.println(input_text+" lost");
     }
     }
   }
